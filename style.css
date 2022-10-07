@@ -30,14 +30,14 @@ section .image img
       border-bottom-right-radius: 0;
       border-bottom-left-radius: 10px;
 }
-section main.product-info
+section .product-info
 {
       display: flex;
       flex-direction: column;
       width: 200px;
       margin-left: 20px;
 }
-section main.product-info >h1
+section .product-info >h1
 {
       font-size: 14px;
       margin-bottom: 20px;
@@ -47,12 +47,12 @@ section main.product-info >h1
       letter-spacing: 2px;
       font-family: 'Montserrat', sans-serif;
 }
-section main.product-info >h2
+section .product-info >h2
 {
       margin-bottom: 20px;
       font-size: 2em;
 }
-section main.product-info > p:not( :last-child)
+section .product-info > p:not( :last-child)
 {
       font-size: 14px;
       color: hsl(228, 12%, 48%);
@@ -60,23 +60,23 @@ section main.product-info > p:not( :last-child)
       font-family: 'Montserrat', sans-serif;
       line-height: 1.5;
 }
-section main.product-info .price
+section .product-info .price
 {
       display: flex;
       align-items: center;
 }
-section main.product-info .price :not( :last-child)
+section .product-info .price :not( :last-child)
 {
       color: hsl(158, 36%, 37%);
       font-size: 30px;
       margin-right: 30px;
 }
-section main.product-info .price :not( :first-child)
+section .product-info .price :not( :first-child)
 {
       color: hsl(228, 12%, 48%);
       font-size: 14px;
 }
-section main.product-info > p:last-child
+section .product-info > p:last-child
 {
       margin-top: 20px;
       font-family: 'Montserrat', sans-serif;
@@ -85,12 +85,12 @@ section main.product-info > p:last-child
       width: fit-content;
       border-radius: 10px;
 }
-section main.product-info > p:last-child >a
+section .product-info > p:last-child >a
 {
       text-decoration: none;
       color: white;
 }
-section main.product-info > p:last-child >a >i
+section .product-info > p:last-child >a >i
 {
       text-decoration: none;
       color: white;
@@ -128,7 +128,7 @@ section main.product-info > p:last-child >a >i
             border-bottom-right-radius: 0;
             border-bottom-left-radius: 0;
       } 
-      section main.product-info {
+      section .product-info {
             width: 100%;
             margin-left: 0;
         }
